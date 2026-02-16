@@ -10,11 +10,10 @@ public class ProdConsFair {
 
     private final ReentrantLock lock = new ReentrantLock();
 
-    // Fair queuing with 4 conditions
-    private final Condition producersQueue;      // Producers wait here for space
-    private final Condition producersTurn;       // Producers wait here for their turn (fairness)
-    private final Condition consumersQueue;      // Consumers wait here for items
-    private final Condition consumersTurn;       // Consumers wait here for their turn (fairness)
+    private final Condition producersQueue;
+    private final Condition producersTurn;
+    private final Condition consumersQueue;
+    private final Condition consumersTurn;
 
     private final int maxCapacity;
     private int count = 0;
@@ -32,19 +31,14 @@ public class ProdConsFair {
     }
 
     public void produce(int amount) throws InterruptedException, IOException {
-        if (amount > maxCapacity) {
-            return; // Cannot produce more than buffer capacity
-        }
-
         lock.lock();
         try {
             long start = System.nanoTime();
 
-            // Fair ordering: wait for our turn if others are waiting
             if (lock.hasWaiters(producersQueue)) {
                 if (!producersTurn.await(100, TimeUnit.MILLISECONDS)) {
                     producersTurn.signal();
-                    return; // Timeout - exit gracefully
+                    return; // Timeout
                 }
             }
 
@@ -52,11 +46,10 @@ public class ProdConsFair {
             while (count + amount > maxCapacity) {
                 if (!producersQueue.await(100, TimeUnit.MILLISECONDS)) {
                     producersTurn.signal();
-                    return; // Timeout - exit gracefully
+                    return; // Timeout
                 }
             }
 
-            // Produce
             count += amount;
 
             synchronized (log) {
@@ -73,10 +66,6 @@ public class ProdConsFair {
     }
 
     public void consume(int amount) throws InterruptedException, IOException {
-        if (amount > maxCapacity) {
-            return; // Cannot consume more than buffer capacity
-        }
-
         lock.lock();
         try {
             long start = System.nanoTime();
@@ -85,7 +74,7 @@ public class ProdConsFair {
             if (lock.hasWaiters(consumersQueue)) {
                 if (!consumersTurn.await(100, TimeUnit.MILLISECONDS)) {
                     consumersTurn.signal();
-                    return; // Timeout - exit gracefully
+                    return; // Timeout
                 }
             }
 
@@ -93,11 +82,10 @@ public class ProdConsFair {
             while (count < amount) {
                 if (!consumersQueue.await(100, TimeUnit.MILLISECONDS)) {
                     consumersTurn.signal();
-                    return; // Timeout - exit gracefully
+                    return; // Timeout
                 }
             }
 
-            // Consume
             count -= amount;
 
             synchronized (log) {

@@ -1,0 +1,710 @@
+[
+  {
+    "mode": "asym",
+    "numPhilosophers": 3,
+    "meals": 15,
+    "philosophers": [
+      {
+        "id": 0,
+        "mealsEaten": 15,
+        "totalWaitTime": 334
+      },
+      {
+        "id": 1,
+        "mealsEaten": 15,
+        "totalWaitTime": 190
+      },
+      {
+        "id": 2,
+        "mealsEaten": 15,
+        "totalWaitTime": 260
+      }
+    ],
+    "totalWaitTime": 784,
+    "avgWaitTime": 261.3333333333333
+  },
+  {
+    "mode": "asym",
+    "numPhilosophers": 5,
+    "meals": 15,
+    "philosophers": [
+      {
+        "id": 0,
+        "mealsEaten": 15,
+        "totalWaitTime": 354
+      },
+      {
+        "id": 1,
+        "mealsEaten": 15,
+        "totalWaitTime": 292
+      },
+      {
+        "id": 2,
+        "mealsEaten": 15,
+        "totalWaitTime": 244
+      },
+      {
+        "id": 3,
+        "mealsEaten": 15,
+        "totalWaitTime": 280
+      },
+      {
+        "id": 4,
+        "mealsEaten": 15,
+        "totalWaitTime": 250
+      }
+    ],
+    "totalWaitTime": 1420,
+    "avgWaitTime": 284
+  },
+  {
+    "mode": "asym",
+    "numPhilosophers": 7,
+    "meals": 15,
+    "philosophers": [
+      {
+        "id": 0,
+        "mealsEaten": 15,
+        "totalWaitTime": 246
+      },
+      {
+        "id": 1,
+        "mealsEaten": 15,
+        "totalWaitTime": 440
+      },
+      {
+        "id": 2,
+        "mealsEaten": 15,
+        "totalWaitTime": 406
+      },
+      {
+        "id": 3,
+        "mealsEaten": 15,
+        "totalWaitTime": 252
+      },
+      {
+        "id": 4,
+        "mealsEaten": 15,
+        "totalWaitTime": 432
+      },
+      {
+        "id": 5,
+        "mealsEaten": 15,
+        "totalWaitTime": 412
+      },
+      {
+        "id": 6,
+        "mealsEaten": 15,
+        "totalWaitTime": 274
+      }
+    ],
+    "totalWaitTime": 2462,
+    "avgWaitTime": 351.7142857142857
+  },
+  {
+    "mode": "asym",
+    "numPhilosophers": 10,
+    "meals": 15,
+    "philosophers": [
+      {
+        "id": 0,
+        "mealsEaten": 15,
+        "totalWaitTime": 238
+      },
+      {
+        "id": 1,
+        "mealsEaten": 15,
+        "totalWaitTime": 122
+      },
+      {
+        "id": 2,
+        "mealsEaten": 15,
+        "totalWaitTime": 220
+      },
+      {
+        "id": 3,
+        "mealsEaten": 15,
+        "totalWaitTime": 122
+      },
+      {
+        "id": 4,
+        "mealsEaten": 15,
+        "totalWaitTime": 390
+      },
+      {
+        "id": 5,
+        "mealsEaten": 15,
+        "totalWaitTime": 210
+      },
+      {
+        "id": 6,
+        "mealsEaten": 15,
+        "totalWaitTime": 276
+      },
+      {
+        "id": 7,
+        "mealsEaten": 15,
+        "totalWaitTime": 244
+      },
+      {
+        "id": 8,
+        "mealsEaten": 15,
+        "totalWaitTime": 166
+      },
+      {
+        "id": 9,
+        "mealsEaten": 15,
+        "totalWaitTime": 482
+      }
+    ],
+    "totalWaitTime": 2470,
+    "avgWaitTime": 247
+  },
+  {
+    "mode": "asym",
+    "numPhilosophers": 15,
+    "meals": 15,
+    "philosophers": [
+      {
+        "id": 0,
+        "mealsEaten": 15,
+        "totalWaitTime": 248
+      },
+      {
+        "id": 1,
+        "mealsEaten": 15,
+        "totalWaitTime": 154
+      },
+      {
+        "id": 2,
+        "mealsEaten": 15,
+        "totalWaitTime": 150
+      },
+      {
+        "id": 3,
+        "mealsEaten": 15,
+        "totalWaitTime": 310
+      },
+      {
+        "id": 4,
+        "mealsEaten": 15,
+        "totalWaitTime": 426
+      },
+      {
+        "id": 5,
+        "mealsEaten": 15,
+        "totalWaitTime": 88
+      },
+      {
+        "id": 6,
+        "mealsEaten": 15,
+        "totalWaitTime": 218
+      },
+      {
+        "id": 7,
+        "mealsEaten": 15,
+        "totalWaitTime": 336
+      },
+      {
+        "id": 8,
+        "mealsEaten": 15,
+        "totalWaitTime": 138
+      },
+      {
+        "id": 9,
+        "mealsEaten": 15,
+        "totalWaitTime": 452
+      },
+      {
+        "id": 10,
+        "mealsEaten": 15,
+        "totalWaitTime": 222
+      },
+      {
+        "id": 11,
+        "mealsEaten": 15,
+        "totalWaitTime": 246
+      },
+      {
+        "id": 12,
+        "mealsEaten": 15,
+        "totalWaitTime": 396
+      },
+      {
+        "id": 13,
+        "mealsEaten": 15,
+        "totalWaitTime": 234
+      },
+      {
+        "id": 14,
+        "mealsEaten": 15,
+        "totalWaitTime": 196
+      }
+    ],
+    "totalWaitTime": 3814,
+    "avgWaitTime": 254.26666666666668
+  },
+  {
+    "mode": "asym",
+    "numPhilosophers": 20,
+    "meals": 15,
+    "philosophers": [
+      {
+        "id": 0,
+        "mealsEaten": 15,
+        "totalWaitTime": 276
+      },
+      {
+        "id": 1,
+        "mealsEaten": 15,
+        "totalWaitTime": 192
+      },
+      {
+        "id": 2,
+        "mealsEaten": 15,
+        "totalWaitTime": 234
+      },
+      {
+        "id": 3,
+        "mealsEaten": 15,
+        "totalWaitTime": 220
+      },
+      {
+        "id": 4,
+        "mealsEaten": 15,
+        "totalWaitTime": 288
+      },
+      {
+        "id": 5,
+        "mealsEaten": 15,
+        "totalWaitTime": 226
+      },
+      {
+        "id": 6,
+        "mealsEaten": 15,
+        "totalWaitTime": 184
+      },
+      {
+        "id": 7,
+        "mealsEaten": 15,
+        "totalWaitTime": 254
+      },
+      {
+        "id": 8,
+        "mealsEaten": 15,
+        "totalWaitTime": 184
+      },
+      {
+        "id": 9,
+        "mealsEaten": 15,
+        "totalWaitTime": 198
+      },
+      {
+        "id": 10,
+        "mealsEaten": 15,
+        "totalWaitTime": 390
+      },
+      {
+        "id": 11,
+        "mealsEaten": 15,
+        "totalWaitTime": 494
+      },
+      {
+        "id": 12,
+        "mealsEaten": 15,
+        "totalWaitTime": 184
+      },
+      {
+        "id": 13,
+        "mealsEaten": 15,
+        "totalWaitTime": 418
+      },
+      {
+        "id": 14,
+        "mealsEaten": 15,
+        "totalWaitTime": 152
+      },
+      {
+        "id": 15,
+        "mealsEaten": 15,
+        "totalWaitTime": 190
+      },
+      {
+        "id": 16,
+        "mealsEaten": 15,
+        "totalWaitTime": 150
+      },
+      {
+        "id": 17,
+        "mealsEaten": 15,
+        "totalWaitTime": 198
+      },
+      {
+        "id": 18,
+        "mealsEaten": 15,
+        "totalWaitTime": 320
+      },
+      {
+        "id": 19,
+        "mealsEaten": 15,
+        "totalWaitTime": 260
+      }
+    ],
+    "totalWaitTime": 5012,
+    "avgWaitTime": 250.6
+  },
+  {
+    "mode": "conductor",
+    "numPhilosophers": 3,
+    "meals": 15,
+    "philosophers": [
+      {
+        "id": 0,
+        "mealsEaten": 15,
+        "totalWaitTime": 321
+      },
+      {
+        "id": 1,
+        "mealsEaten": 15,
+        "totalWaitTime": 445
+      },
+      {
+        "id": 2,
+        "mealsEaten": 15,
+        "totalWaitTime": 367
+      }
+    ],
+    "totalWaitTime": 1133,
+    "avgWaitTime": 377.6666666666667
+  },
+  {
+    "mode": "conductor",
+    "numPhilosophers": 5,
+    "meals": 15,
+    "philosophers": [
+      {
+        "id": 0,
+        "mealsEaten": 13,
+        "totalWaitTime": 1405
+      },
+      {
+        "id": 1,
+        "mealsEaten": 13,
+        "totalWaitTime": 1479
+      },
+      {
+        "id": 2,
+        "mealsEaten": 12,
+        "totalWaitTime": 1440
+      },
+      {
+        "id": 3,
+        "mealsEaten": 12,
+        "totalWaitTime": 1162
+      },
+      {
+        "id": 4,
+        "mealsEaten": 13,
+        "totalWaitTime": 1595
+      }
+    ],
+    "totalWaitTime": 7081,
+    "avgWaitTime": 1416.2
+  },
+  {
+    "mode": "conductor",
+    "numPhilosophers": 7,
+    "meals": 15,
+    "philosophers": [
+      {
+        "id": 0,
+        "mealsEaten": 11,
+        "totalWaitTime": 1559
+      },
+      {
+        "id": 1,
+        "mealsEaten": 12,
+        "totalWaitTime": 1834
+      },
+      {
+        "id": 2,
+        "mealsEaten": 12,
+        "totalWaitTime": 1938
+      },
+      {
+        "id": 3,
+        "mealsEaten": 12,
+        "totalWaitTime": 1714
+      },
+      {
+        "id": 4,
+        "mealsEaten": 13,
+        "totalWaitTime": 1765
+      },
+      {
+        "id": 5,
+        "mealsEaten": 13,
+        "totalWaitTime": 1678
+      },
+      {
+        "id": 6,
+        "mealsEaten": 12,
+        "totalWaitTime": 1598
+      }
+    ],
+    "totalWaitTime": 12086,
+    "avgWaitTime": 1726.5714285714287
+  },
+  {
+    "mode": "conductor",
+    "numPhilosophers": 10,
+    "meals": 15,
+    "philosophers": [
+      {
+        "id": 0,
+        "mealsEaten": 15,
+        "totalWaitTime": 431
+      },
+      {
+        "id": 1,
+        "mealsEaten": 15,
+        "totalWaitTime": 105
+      },
+      {
+        "id": 2,
+        "mealsEaten": 15,
+        "totalWaitTime": 261
+      },
+      {
+        "id": 3,
+        "mealsEaten": 15,
+        "totalWaitTime": 261
+      },
+      {
+        "id": 4,
+        "mealsEaten": 15,
+        "totalWaitTime": 401
+      },
+      {
+        "id": 5,
+        "mealsEaten": 15,
+        "totalWaitTime": 217
+      },
+      {
+        "id": 6,
+        "mealsEaten": 15,
+        "totalWaitTime": 305
+      },
+      {
+        "id": 7,
+        "mealsEaten": 15,
+        "totalWaitTime": 233
+      },
+      {
+        "id": 8,
+        "mealsEaten": 15,
+        "totalWaitTime": 323
+      },
+      {
+        "id": 9,
+        "mealsEaten": 15,
+        "totalWaitTime": 61
+      }
+    ],
+    "totalWaitTime": 2598,
+    "avgWaitTime": 259.8
+  },
+  {
+    "mode": "conductor",
+    "numPhilosophers": 15,
+    "meals": 15,
+    "philosophers": [
+      {
+        "id": 0,
+        "mealsEaten": 14,
+        "totalWaitTime": 766
+      },
+      {
+        "id": 1,
+        "mealsEaten": 14,
+        "totalWaitTime": 836
+      },
+      {
+        "id": 2,
+        "mealsEaten": 10,
+        "totalWaitTime": 1248
+      },
+      {
+        "id": 3,
+        "mealsEaten": 12,
+        "totalWaitTime": 1706
+      },
+      {
+        "id": 4,
+        "mealsEaten": 12,
+        "totalWaitTime": 1690
+      },
+      {
+        "id": 5,
+        "mealsEaten": 13,
+        "totalWaitTime": 1615
+      },
+      {
+        "id": 6,
+        "mealsEaten": 14,
+        "totalWaitTime": 1476
+      },
+      {
+        "id": 7,
+        "mealsEaten": 14,
+        "totalWaitTime": 1518
+      },
+      {
+        "id": 8,
+        "mealsEaten": 15,
+        "totalWaitTime": 1275
+      },
+      {
+        "id": 9,
+        "mealsEaten": 15,
+        "totalWaitTime": 1313
+      },
+      {
+        "id": 10,
+        "mealsEaten": 14,
+        "totalWaitTime": 1136
+      },
+      {
+        "id": 11,
+        "mealsEaten": 14,
+        "totalWaitTime": 872
+      },
+      {
+        "id": 12,
+        "mealsEaten": 14,
+        "totalWaitTime": 816
+      },
+      {
+        "id": 13,
+        "mealsEaten": 14,
+        "totalWaitTime": 880
+      },
+      {
+        "id": 14,
+        "mealsEaten": 14,
+        "totalWaitTime": 760
+      }
+    ],
+    "totalWaitTime": 17907,
+    "avgWaitTime": 1193.8
+  },
+  {
+    "mode": "conductor",
+    "numPhilosophers": 20,
+    "meals": 15,
+    "philosophers": [
+      {
+        "id": 0,
+        "mealsEaten": 13,
+        "totalWaitTime": 1375
+      },
+      {
+        "id": 1,
+        "mealsEaten": 12,
+        "totalWaitTime": 1516
+      },
+      {
+        "id": 2,
+        "mealsEaten": 13,
+        "totalWaitTime": 1551
+      },
+      {
+        "id": 3,
+        "mealsEaten": 15,
+        "totalWaitTime": 1197
+      },
+      {
+        "id": 4,
+        "mealsEaten": 14,
+        "totalWaitTime": 1388
+      },
+      {
+        "id": 5,
+        "mealsEaten": 15,
+        "totalWaitTime": 1407
+      },
+      {
+        "id": 6,
+        "mealsEaten": 15,
+        "totalWaitTime": 995
+      },
+      {
+        "id": 7,
+        "mealsEaten": 15,
+        "totalWaitTime": 929
+      },
+      {
+        "id": 8,
+        "mealsEaten": 15,
+        "totalWaitTime": 763
+      },
+      {
+        "id": 9,
+        "mealsEaten": 14,
+        "totalWaitTime": 896
+      },
+      {
+        "id": 10,
+        "mealsEaten": 14,
+        "totalWaitTime": 952
+      },
+      {
+        "id": 11,
+        "mealsEaten": 14,
+        "totalWaitTime": 750
+      },
+      {
+        "id": 12,
+        "mealsEaten": 12,
+        "totalWaitTime": 784
+      },
+      {
+        "id": 13,
+        "mealsEaten": 12,
+        "totalWaitTime": 878
+      },
+      {
+        "id": 14,
+        "mealsEaten": 12,
+        "totalWaitTime": 892
+      },
+      {
+        "id": 15,
+        "mealsEaten": 11,
+        "totalWaitTime": 963
+      },
+      {
+        "id": 16,
+        "mealsEaten": 12,
+        "totalWaitTime": 712
+      },
+      {
+        "id": 17,
+        "mealsEaten": 11,
+        "totalWaitTime": 819
+      },
+      {
+        "id": 18,
+        "mealsEaten": 12,
+        "totalWaitTime": 846
+      },
+      {
+        "id": 19,
+        "mealsEaten": 13,
+        "totalWaitTime": 1613
+      }
+    ],
+    "totalWaitTime": 21226,
+    "avgWaitTime": 1061.3
+  }
+]

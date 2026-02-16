@@ -10,18 +10,12 @@ public class Main {
         System.out.println("Test 1: M=1000, 10P+10C");
         runTest(100000, 1000, "log_starving.csv", "log_fair.csv");
 
-
-        // Test configuration 3: M=100000, 1000 producers, 1000 consumers
-        // System.out.println("\nTest 3: M=100000, 1000P+1000C");
-        // runTest(100000, 1000, "log_starving_100000.csv", "log_fair_100000.csv");
-
         System.out.println("\n=== Wszystkie testy zakończone ===");
     }
 
     private static void runTest(int M, int threadCount, String starvingLog, String fairLog)
             throws InterruptedException, IOException {
 
-        // Test 1: Naive approach (with starvation)
         System.out.println("  Wariant naiwny...");
         FileWriter log1 = new FileWriter(starvingLog);
         log1.append("Type,Amount,WaitTimeNanos\n");
